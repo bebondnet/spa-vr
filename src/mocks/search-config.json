@@ -1,0 +1,21 @@
+{
+  "restaurant": {
+    "post_type": "restaurant",
+    "sort_options": [
+      { "field": "sort_rating", "label": "VRC Rating", "order": "desc", "default": true },
+      { "field": "sort_expense", "label": "Price (High to Low)", "order": "desc" },
+      { "field": "sort_expense", "label": "Price (Low to High)", "order": "asc" },
+      { "field": "sort_title", "label": "Name (A-Z)", "order": "asc" },
+      { "field": "sort_title", "label": "Name (Z-A)", "order": "desc" },
+      { "field": "distance", "label": "Distance", "order": "asc", "requires_location": true }
+    ],
+    "filter_options": [
+      { "field": "cuisine", "label": "Cuisine", "type": "multiselect" },
+      { "field": "expense_level", "label": "Price", "type": "multiselect" },
+      { "field": "meals_served", "label": "Meals", "type": "multiselect" },
+      { "field": "features", "label": "Features", "type": "multiselect" },
+      { "field": "is_featured", "label": "Featured Only", "type": "toggle" }
+    ],
+    "location_levels": ["country", "region", "city", "neighbourhood"]
+  }
+}

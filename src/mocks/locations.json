@@ -1,0 +1,54 @@
+{
+  "United States": {
+    "count": 50,
+    "regions": {
+      "Pennsylvania": {
+        "count": 14,
+        "cities": {
+          "Philadelphia": {
+            "count": 14,
+            "neighbourhoods": ["South Philly", "Center City", "Rittenhouse", "Old City", "Fishtown", "Midtown Village", "Society Hill", "Washington Square"]
+          }
+        }
+      },
+      "New Jersey": {
+        "count": 11,
+        "cities": {
+          "Princeton": {
+            "count": 6,
+            "neighbourhoods": []
+          },
+          "Hopewell": {
+            "count": 1,
+            "neighbourhoods": []
+          },
+          "Freehold": {
+            "count": 2,
+            "neighbourhoods": []
+          },
+          "New Brunswick": {
+            "count": 3,
+            "neighbourhoods": []
+          }
+        }
+      },
+      "New York": {
+        "count": 25,
+        "cities": {
+          "New York City": {
+            "count": 21,
+            "neighbourhoods": ["Midtown", "Flatiron", "Lower East Side", "Greenwich Village", "SoHo", "West Village", "East Village", "Financial District", "Central Park South"]
+          },
+          "Brooklyn": {
+            "count": 6,
+            "neighbourhoods": ["Williamsburg", "Midwood", "Carroll Gardens", "Bushwick"]
+          },
+          "Tarrytown": {
+            "count": 1,
+            "neighbourhoods": []
+          }
+        }
+      }
+    }
+  }
+}
