@@ -144,6 +144,7 @@ export function SearchPage() {
           <div className="logo">
             <span className="logo-text">VRC</span>
             <span className="logo-subtitle">Virtual Restaurant Concierge</span>
+            <span className="logo-version" data-testid="version">v1.1.0-BEB105</span>
           </div>
           <nav className="header-nav">
             <a href="/">Home</a>
